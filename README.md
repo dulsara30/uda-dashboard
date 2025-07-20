@@ -1,12 +1,52 @@
-# React + Vite
+# 🏛️ UDA Participant Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time web-based dashboard for managing and displaying Urban Development Authority (UDA) awareness workshop participant data — built using Google Forms + Google Sheets + React.
 
-Currently, two official plugins are available:
+![Screenshot](./src/assets/logo.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Project Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This dashboard helps UDA officials to:
+
+- View real-time registrations from a Google Form
+- Filter by District → Local Authority → Designation
+- See participant names, counts, and designations
+- Search by full name or authority
+- Display on projector/TV screen for awareness events
+
+---
+
+## 🚀 Live Link
+
+> https://uda-dashboard.vercel.app/
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Tech                                |
+|-------------|-------------------------------------|
+| Frontend    | React + Vite                        |
+| Styling     | Tailwind CSS + Heroicons            |
+| Data Source | Google Sheet via [Sheet.best](https://sheet.best) |
+| Hosting     | Vercel (CI/CD from GitHub)          |
+
+---
+
+## ✅ Features
+- 📊 Real-time data sync from Google Form
+- 📍 District → Authority → Designation structure
+- 👥 Participant name + designation display
+- 🔍 Search by name or local authority
+- 🔁 Refresh manually anytime
+- 🧼 Government-grade UI with branding
+  
+---
+
+## 📸 Screenshot
+![Screenshot](./src/assets/screenshot.png)
+
+## 📜 License
+!(MIT License)
