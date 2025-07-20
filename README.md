@@ -49,4 +49,4 @@ This dashboard helps UDA officials to:
 ![Screenshot](./src/assets/screenshot.png)
 
 ## 📜 License
-![MIT License](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+[MIT License](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
